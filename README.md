@@ -85,8 +85,8 @@ Will take a file with `mail:password` lines, sort them, then output a toplist.
 ...
 ```
 Think `sort` but slower.
-##Why
+## Why
 I needed something that works.
 
-##Stuff is broken
+## Stuff is broken
 Works for me. Feel free to fix it.

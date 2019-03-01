@@ -68,6 +68,7 @@ The heuristic is based on what I've seen so far. Keep an eye on the error msgs i
 
 _I recommend to read thorugh the comments in [./dedupe.py](./dedupe.py). 
 That's the actual interesting part of this all._
+If you want to only get the password from a grep result, use `cleaned(line: str) -> str`.
 Based on this, one could probably build an importer to a proper db.
 
 Usage: `./dedupe.py [search_all_mails_mp.outfile] > deduped.txt`
